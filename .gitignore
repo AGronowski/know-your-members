@@ -1,0 +1,13 @@
+# secrets and local data: community leads' exports must never reach a public repo
+.env
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/

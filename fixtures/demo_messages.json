@@ -1,0 +1,43 @@
+{
+  "_note": "Synthetic Discord history for the thread reviver demo. hours_ago is relative to when it's loaded.",
+  "channels": ["help", "show-and-tell", "events", "general"],
+  "threads": [
+    {"channel": "help", "name": "LiveKit vs Pipecat for low-latency voice?", "messages": [
+      {"author": "Aisha Rahman", "hours_ago": 216, "content": "Has anyone run LiveKit or Pipecat in production? Our voice agent's turn latency is about 1.4s and patients talk over it. Looking for tricks to get under 800ms."}
+    ]},
+    {"channel": "help", "name": "Postgres or ClickHouse for product analytics events?", "messages": [
+      {"author": "Hannah Lee", "hours_ago": 150, "content": "We're logging about 2M events a day from the climbing app and Postgres is starting to struggle on the dashboards. Time for ClickHouse, or can Postgres go further?"},
+      {"author": "Tom Okafor", "hours_ago": 148, "content": "Following, same question for our support analytics", "reply_to": 0}
+    ]},
+    {"channel": "show-and-tell", "name": "ragcheck v0.2: eval harness for RAG", "messages": [
+      {"author": "Priya Shah", "hours_ago": 300, "content": "Shipped v0.2 of my eval harness: retrieval recall, groundedness and answer checks in one CLI. Feedback welcome!"},
+      {"author": "Kwame Mensah", "hours_ago": 298, "content": "Nice! Does it work with agent traces or only single-turn RAG?", "reply_to": 0},
+      {"author": "Priya Shah", "hours_ago": 297, "content": "Single-turn for now. Multi-turn is next, would love input on how people log agent runs", "reply_to": 1},
+      {"author": "Mohammed Ali", "hours_ago": 290, "content": "Trying it on our property search this week"},
+      {"author": "Priya Shah", "hours_ago": 289, "content": "Amazing, tell me what breaks. Has anyone tried it on non-English documents?", "reply_to": 3}
+    ]},
+    {"channel": "events", "name": "Co-organiser for an AI agents meetup?", "messages": [
+      {"author": "Lena Fischer", "hours_ago": 240, "content": "I'm starting a monthly London meetup on AI agents. Looking for a co-organiser and a venue for about 60 people. Anyone?"},
+      {"author": "Zara Ahmed", "hours_ago": 238, "content": "Love this. I run a women in AI meetup, happy to share sponsor contacts", "reply_to": 0},
+      {"author": "Lena Fischer", "hours_ago": 237, "content": "Thank you! Still need a venue. Does anyone's office host evening events?", "reply_to": 1}
+    ]},
+    {"channel": "general", "name": "What's everyone shipping this week?", "messages": [
+      {"author": "Sam Adeyemi", "hours_ago": 3, "content": "What's everyone shipping this week? I'm wiring an agent into our hackathon judging sheet"},
+      {"author": "Grace O'Neill", "hours_ago": 2, "content": "Newsletter issue on AI SEO tools goes out Thursday", "reply_to": 0},
+      {"author": "Victor Ivanov", "hours_ago": 1, "content": "Alerting rules for the observability stack, finally", "reply_to": 0}
+    ]},
+    {"channel": "general", "name": "Happy Friday", "messages": [
+      {"author": "Zara Ahmed", "hours_ago": 200, "content": "Happy Friday everyone! 🎉"},
+      {"author": "Sam Adeyemi", "hours_ago": 199, "content": "🎉🎉", "reply_to": 0},
+      {"author": "Tom Okafor", "hours_ago": 199, "content": "have a good one", "reply_to": 0}
+    ]},
+    {"channel": "help", "name": "GitHub student pack?", "messages": [
+      {"author": "Sam Adeyemi", "hours_ago": 180, "content": "How do I get the GitHub student pack if my uni email isn't recognised?"},
+      {"author": "Emily Zhang", "hours_ago": 178, "content": "Upload your student ID in the application, worked for me", "reply_to": 0},
+      {"author": "Sam Adeyemi", "hours_ago": 177, "content": "That worked, thanks!", "reply_to": 1}
+    ]},
+    {"channel": "help", "name": "R&D tax credits for LLM work?", "messages": [
+      {"author": "Daniel Kim", "hours_ago": 170, "content": "Has anyone claimed R&D tax credits for LLM work? Our accountant isn't sure prompt engineering counts."}
+    ]}
+  ]
+}
